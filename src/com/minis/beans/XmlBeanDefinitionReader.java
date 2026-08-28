@@ -1,13 +1,7 @@
 package com.minis.beans;
 
-import java.net.URL;
-import java.util.List;
-
-import org.dom4j.Document;
-import org.dom4j.Element;
-import org.dom4j.io.SAXReader;
-
 import com.minis.core.Resource;
+import org.dom4j.Element;
 
 public class XmlBeanDefinitionReader {
 	BeanFactory bf;
@@ -24,7 +18,4 @@ public class XmlBeanDefinitionReader {
         }
 		
 	}
-	
-
-
 }
