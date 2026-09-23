@@ -1,12 +1,12 @@
 package com.minis.beans.factory;
 
 public interface FactoryBean<T> {
-	T getObject() throws Exception;
+    T getObject() throws Exception;
 
-	Class<?> getObjectType();
+    Class<?> getObjectType();
 
-	default boolean isSingleton() {
-		return true;
-	}
+    default boolean isSingleton() {
+        return true;
+    }
 
 }
